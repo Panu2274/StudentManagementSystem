@@ -1,0 +1,35 @@
+<nav class="navbar navbar-dark bg-primary p-3">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">Student Management System</span>
+  </div>
+</nav>
+
+<div class="container mt-5">
+
+  <!-- Title & Description -->
+  <div class="text-center mb-5">
+    <h2 class="fw-bold">Welcome to the Student Management System</h2>
+    <p class="text-muted">
+      Login as <strong>Admin</strong> to manage student records, or as <strong>Student</strong> to register and view your entry.
+    </p>
+  </div>
+
+  <div class="row align-items-center">
+
+    <div class="col-md-6 text-center mb-4">
+      <img src="assets/stud.png" width="60%" alt="Student Icon">
+    </div>
+
+    <div class="col-md-6 d-flex justify-content-around">
+      <a routerLink="/login" class="border p-5 text-center text-decoration-none shadow rounded bg-light" style="width: 40%;">
+        <h5>Login</h5>
+      </a>
+      <a routerLink="/register" class="border p-5 text-center text-decoration-none shadow rounded bg-light" style="width: 40%;">
+        <h5>Register</h5>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<router-outlet></router-outlet>

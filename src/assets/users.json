@@ -1,0 +1,130 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Pranali",
+      "dob": "2004-07-22",
+      "mobno": "8010178269",
+      "username": "panu",
+      "password": "panu2274",
+      "role": "student"
+    },
+    {
+      "id": "2",
+      "name": "Akash",
+      "dob": "2003-03-09",
+      "mobno": "8767086091",
+      "username": "akshu",
+      "password": "akshu09",
+      "role": "admin"
+    },
+    {
+      "id": "3",
+      "name": "Alex",
+      "dob": "2005-02-01",
+      "mobno": "9087654321",
+      "username": "alex",
+      "password": "alex123",
+      "role": "admin"
+    },
+    {
+      "id": "4",
+      "name": "Ajay",
+      "dob": "2003-03-02",
+      "mobno": "9012345678",
+      "username": "ajay",
+      "password": "ajay123",
+      "role": "student"
+    },
+    {
+      "id": "5",
+      "name": "Sara",
+      "dob": "2002-09-14",
+      "mobno": "8765432101",
+      "username": "sara",
+      "password": "sara2345",
+      "role": "student"
+    },
+    {
+      "id": "6",
+      "name": "Ravi",
+      "dob": "2001-12-11",
+      "mobno": "8901234567",
+      "username": "ravi",
+      "password": "ravi123",
+      "role": "admin"
+    },
+    {
+      "id": "7",
+      "name": "Maya",
+      "dob": "2004-03-20",
+      "mobno": "9045678912",
+      "username": "maya",
+      "password": "maya7890",
+      "role": "student"
+    },
+    {
+      "id": "8",
+      "name": "Nikhil",
+      "dob": "2002-11-28",
+      "mobno": "9056781234",
+      "username": "nikhil",
+      "password": "nikhil1234",
+      "role": "admin"
+    },
+    {
+      "id": "9",
+      "name": "Priya",
+      "dob": "2003-08-15",
+      "mobno": "9023456789",
+      "username": "priya",
+      "password": "priya5678",
+      "role": "student"
+    },
+    {
+      "id": "10",
+      "name": "Vishal",
+      "dob": "2003-05-10",
+      "mobno": "9098765432",
+      "username": "vishal",
+      "password": "vishal1234",
+      "role": "student"
+    },
+    {
+      "id": "11",
+      "name": "Kritika",
+      "dob": "2005-06-22",
+      "mobno": "9001122334",
+      "username": "kritika",
+      "password": "kritika09",
+      "role": "admin"
+    },
+    {
+      "id": "12",
+      "name": "Nina",
+      "dob": "2004-07-19",
+      "mobno": "9067456723",
+      "username": "nina",
+      "password": "nina1234",
+      "role": "student"
+    },
+    {
+      "id": "13",
+      "name": "Deepak",
+      "dob": "2003-04-25",
+      "mobno": "9123456789",
+      "username": "deepak",
+      "password": "deepak2021",
+      "role": "student"
+    },
+    {
+      "id": "14",
+      "name": "Aarav",
+      "dob": "2001-10-30",
+      "mobno": "9134567890",
+      "username": "aarav",
+      "password": "aarav5678",
+      "role": "admin"
+    }
+  ]
+}

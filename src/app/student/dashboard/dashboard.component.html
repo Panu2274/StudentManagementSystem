@@ -1,0 +1,42 @@
+<div class="container mt-4">
+  <h2 class="mb-4 text-center">Welcome, {{ currentUser?.name }}</h2>
+
+  <div class="row">
+    <!-- Motivational Section -->
+    <div class="col-md-12 mb-4">
+      <div class="card shadow-sm border-light">
+        <div class="card-header bg-info text-white text-center">
+          <h5>Your Journey</h5>
+        </div>
+        <div class="card-body">
+          <!-- Show a personalized motivational message -->
+          <p class="text-center">
+            {{ generateMotivationalMessage(currentUser) }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Action Buttons Section -->
+    <div class="col-md-12">
+      <div class="card shadow-sm border-light">
+        <div class="card-header bg-primary text-white text-center">
+          <h5>Actions</h5>
+        </div>
+        <div class="card-body">
+          <div class="btn-group-vertical w-100">
+            <button class="btn btn-info mb-3" [routerLink]="['/student/view']">
+              <i class="bi bi-eye"></i> View All Students
+            </button>
+            <button class="btn btn-success mb-3" [routerLink]="['/student/add']">
+              <i class="bi bi-plus-circle"></i> Add Your Data
+            </button>
+            <button class="btn btn-warning mb-3" [routerLink]="['/student/profile', currentUser?.id]">
+              <i class="bi bi-pencil-square"></i> See Your Profile
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
