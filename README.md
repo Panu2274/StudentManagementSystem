@@ -2,12 +2,6 @@
 
 This is a student data management system built using **Angular** and deployed using **Firebase Hosting**. The application provides separate modules for Admin and Student with basic login-based role access.
 
-## 🚀 Live Demo
-
-🌐 [Click here to view live](https://studentmanagementsystem-dc835.web.app/)
-
----
-
 ## ✨ Features
 
 - 🔐 Login system for admin and students
@@ -21,7 +15,6 @@ This is a student data management system built using **Angular** and deployed us
   - View own profile
 - 🔁 Role-based routing and restricted access
 - 🗂️ JSON-server used to simulate a backend (`users.json`)
-
 
 ---
 
@@ -53,5 +46,9 @@ cd StudentManagementSystem
 # Install dependencies
 npm install
 
-# Run locally
+# Run JSON server to simulate backend
+json-server --watch db.json
+json-server --watch users.json --port 3001
+
+# Run the Angular app locally
 ng serve
