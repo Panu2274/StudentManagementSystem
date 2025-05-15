@@ -22,13 +22,13 @@ This is a student data management system built using **Angular** and deployed us
 ## 📸 Screenshot
 
 
-![Login Screenshot](./assets/login.png)
-![Register Screenshot](./assets/register.png)
-![Admin Panel Screenshot](./assets/admin-panel.png)
-![Admin Profile Screenshot](./assets/profile.png)
-![Admin view Screenshot](./assets/admin-view.png)
-![Student View Screenshot](./assets/stud-view.png)
-![Dashboard Screenshot](./assets/dashboard.png)
+![Login Screenshot](./src/assets/login.png)
+![Register Screenshot](./src/assets/register.png)
+![Admin Panel Screenshot](./src/assets/admin-panel.png)
+![Admin Profile Screenshot](./src/assets/profile.png)
+![Admin view Screenshot](./src/assets/admin-view.png)
+![Student View Screenshot](./src/assets/stud-view.png)
+![Dashboard Screenshot](./src/assets/dashboard.png)
 ---
 
 ## 🛠️ Tech Stack
