@@ -9,6 +9,7 @@ This is a student data management system built using **Angular** and deployed us
   - View all student data
   - Add, Edit, Delete (CRUD operations)
   - View own profile
+    
 - 🧑‍🎓 Student Module:
   - Add personal data
   - View all student records
@@ -30,7 +31,6 @@ This is a student data management system built using **Angular** and deployed us
 - TypeScript
 - Bootstrap 5
 - JSON Server
-- Firebase Hosting
 
 ---
 
