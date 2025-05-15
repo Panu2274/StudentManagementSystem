@@ -14,10 +14,11 @@ This is a student data management system built using **Angular** and deployed us
 - 🧑‍💼 Admin Module:
   - View all student data
   - Add, Edit, Delete (CRUD operations)
+  - View own profile
 - 🧑‍🎓 Student Module:
   - Add personal data
   - View all student records
-  - View/Edit own profile
+  - View own profile
 - 🔁 Role-based routing and restricted access
 - 🗂️ JSON-server used to simulate a backend (`users.json`)
 
