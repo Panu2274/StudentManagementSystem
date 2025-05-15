@@ -1,27 +1,56 @@
-# StudentRegistration
+# 🎓 Student Management System - Angular Web App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
+This is a student data management system built using **Angular** and deployed using **Firebase Hosting**. The application provides separate modules for Admin and Student with basic login-based role access.
 
-## Development server
+## 🚀 Live Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+🌐 [Click here to view live](https://studentmanagementsystem-dc835.web.app/)
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## ✨ Features
 
-## Build
+- 🔐 Login system for admin and students
+- 🧑‍💼 Admin Module:
+  - View all student data
+  - Add, Edit, Delete (CRUD operations)
+- 🧑‍🎓 Student Module:
+  - Add personal data
+  - View all student records
+  - View/Edit own profile
+- 🔁 Role-based routing and restricted access
+- 🗂️ JSON-server used to simulate a backend (`users.json`)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📸 Screenshot
 
-## Running end-to-end tests
+![Dashboard Screenshot](./assets/screenshot.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 🛠️ Tech Stack
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Angular
+- TypeScript
+- Bootstrap 5
+- JSON Server
+- Firebase Hosting
+
+---
+
+## 🔧 Setup Instructions
+
+```bash
+# Clone the repo
+git clone https://github.com/Panu2274/StudentManagementSystem.git
+
+# Navigate to project directory
+cd StudentManagementSystem
+
+# Install dependencies
+npm install
+
+# Run locally
+ng serve
