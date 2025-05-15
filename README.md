@@ -39,6 +39,17 @@ This is a student data management system built using **Angular** and deployed us
 - JSON Server
 
 ---
+## 🔗 Live Demo  
+
+🚀 Live Firebase Demo (Frontend only):
+https://studentmanagementsystem-dc835.web.app
+
+## ⚠️ Note
+
+The Firebase-hosted version does not include a running backend (json-server), so login and data-related features may not function as expected.
+👉 For full functionality, run the project locally with JSON-server as shown below.
+json-server --watch db.json
+json-server --watch users.json --port 3001
 
 ## 🔧 Setup Instructions
 
